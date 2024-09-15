@@ -3,8 +3,8 @@ import trash from "../assets/Trash.svg";
 function About() {
   return (
     <>
-      <div className="bg-[url('src/assets/Trash2.png')] bg-no-repeat h-[740px]">
-        <div className="bg-[url('src/assets/About.svg')] h-[740px]  bg-right bg-no-repeat bg-contain">
+      <div className="bg-[url('assets/Trash2.png')] bg-no-repeat h-[740px]">
+        <div className="bg-[url('assets/About.svg')] h-[740px]  bg-right bg-no-repeat bg-contain">
           <h1 className="ml-[280px] pt-10 text-6xl font-black text-white">
             About Us
           </h1>
