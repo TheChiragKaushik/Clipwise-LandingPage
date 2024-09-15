@@ -1,7 +1,7 @@
 import Heading from "../components/Heading.jsx";
-import MailIcon from "../assets/MailIcon.svg";
-import CallIcon from "../assets/CallIcon.svg";
-import LocationIcon from "../assets/LocationIcon.svg";
+import MailIcon from "../../assets/MailIcon.svg";
+import CallIcon from "../../assets/CallIcon.svg";
+import LocationIcon from "../../assets/LocationIcon.svg";
 
 const Info = ({ image, line }) => {
   return (

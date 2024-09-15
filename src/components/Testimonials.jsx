@@ -1,6 +1,6 @@
 import Heading from "../components/Heading.jsx";
-import icon from "../assets/TestyIcon.svg";
-import Stars from "../assets/Stars.png";
+import icon from "../../assets/TestyIcon.svg";
+import Stars from "../../assets/Stars.png";
 
 const Card = ({ image }) => {
   return (

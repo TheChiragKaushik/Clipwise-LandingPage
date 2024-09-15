@@ -1,7 +1,7 @@
 import Heading from "./Heading";
-import Services1 from "../assets/Services1.svg";
-import Services2 from "../assets/Services2.svg";
-import Services3 from "../assets/Services3.svg";
+import Services1 from "../../assets/Services1.svg";
+import Services2 from "../../assets/Services2.svg";
+import Services3 from "../../assets/Services3.svg";
 
 const Card = ({ image }) => {
   return (

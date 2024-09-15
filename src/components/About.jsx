@@ -1,4 +1,4 @@
-import trash from "../assets/Trash.svg";
+import trash from "../../assets/Trash.svg";
 
 function About() {
   return (
