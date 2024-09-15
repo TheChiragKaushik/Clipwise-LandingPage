@@ -1,10 +1,12 @@
 import trash from "../../assets/Trash.svg";
+import trash2 from "../../assets/Trash2.png";
+import about from "../../assets/About.svg";
 
 function About() {
   return (
     <>
-      <div className="bg-[url('assets/Trash2.png')] bg-no-repeat h-[740px]">
-        <div className="bg-[url('assets/About.svg')] h-[740px]  bg-right bg-no-repeat bg-contain">
+      <div className="bg-[url('assets/Trash2.png')] bg-no-repeat h-[740px]" style={{backgroundImage: `url{${trash2}}`}}>
+        <div className="bg-[url('assets/About.svg')] h-[740px]  bg-right bg-no-repeat bg-contain" style={{backgroundImage: `url{${about}}`}}>
           <h1 className="ml-[280px] pt-10 text-6xl font-black text-white">
             About Us
           </h1>
