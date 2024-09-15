@@ -5,7 +5,7 @@ import header from "../../assets/Header.svg";
 function Header() {
   return (
     <>
-      <div className="bg-[url('assets/Header.svg')] bg-no-repeat bg-contain w-[1100px] h-[750px]" style={{backgroundImage: `url{${header}}`}}>
+      <div className="bg-no-repeat bg-contain w-[1100px] h-[750px]" style={{backgroundImage: `url{${header}}`}}>
         <div className="flex flex-col items-center pt-[70px] justify-center">
           <img src={logo} className="w-[349px] h-[87px]	ml-[570px]" alt="Logo" />
 
